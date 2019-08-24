@@ -1,9 +1,9 @@
 <template>
   <div class="container">
     <div class="term-head">
-      <button class="red">x</button>
-      <button class="yellow">-</button>
-      <button class="green">/</button>
+      <button class="red"></button>
+      <button class="yellow"></button>
+      <button class="green"></button>
       <span class="mrg-aboutme">ABOUT ME</span>
 　　 </div>
 
@@ -69,8 +69,8 @@ export default {
 }
 
 button{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%; 
 }
 
@@ -105,7 +105,7 @@ button{
 }
 
 .mrg-aboutme{
-  margin-left : 280px;
+  margin-left : 310px;
 }
 
 a{
