@@ -8,13 +8,13 @@
 　　 </div>
 
     <div class="term-body">
-    <p><span class="mrg">Name</span><span class="mrg">-----></span>Kazuki Mori</p>
-    <p><span class="mrg">Age</span><span class="mrg">-----></span>21,     1998/05/19</p>
-    <p><span class="mrg">University</span><span class="mrg">-----></span>The University of Aizu  (Third year University student)</p>
-    <p><span class="mrg">Major</span><span class="mrg">-----></span>Computer science</p>
-    <p><span class="mrg">Lab</span><span class="mrg">-----></span>Biomedical Information Technology</p>
-    <p><span class="mrg">Skills</span><span class="mrg">-----></span>HTML / css / JavaScript</p>
-    <p><span class="mrg">Hobby</span><span class="mrg">-----></span>Football  /  Watching movie  /  Listening to music</p>
+    <p><span class="mrg">Name</span><span class="mrg">-----></span><span class="white">Kazuki Mori</span></p>
+    <p><span class="mrg">Age</span><span class="mrg">-----></span><span class="white">21,     1998/05/19</span></p>
+    <p><span class="mrg">University</span><span class="mrg">-----></span><span class="white">The University of Aizu  (Third year University student)</span></p>
+    <p><span class="mrg">Major</span><span class="mrg">-----></span><span class="white">Computer science</span></p>
+    <p><span class="mrg">Lab</span><span class="mrg">-----></span><span class="white">Biomedical Information Technology</span></p>
+    <p><span class="mrg">Skills</span><span class="mrg">-----></span><span class="white">HTML / css / JavaScript</span></p>
+    <p><span class="mrg">Hobby</span><span class="mrg">-----></span><span class="white">Football  /  Watching movie  /  Listening to music</span></p>
     <p><router-link to="/information">open more information</router-link></p>
     <br>
     <br>
@@ -90,7 +90,8 @@ button{
 .term-body{
     font-family: 'Verdana';
     padding: 0.5em 1em;
-    color:#fff;
+    /* color:rgb(7, 252, 117); */
+    color: #fff;
     background: black;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -106,10 +107,15 @@ button{
 }
 
 .mrg-aboutme{
-  margin-left : 310px;
+  margin-left : 35%;
 }
 
 a{
   color: rgb(8, 121, 4);
+}
+
+.white{
+  /* color: #fff; */
+  color:rgb(7, 252, 117);
 }
 </style>
