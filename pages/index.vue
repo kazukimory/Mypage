@@ -4,10 +4,10 @@
       <button class="red">x</button>
       <button class="yellow">-</button>
       <button class="green">/</button>
-      <span class="mrg-350">ABOUT ME</span>
+      <span class="mrg-aboutme">ABOUT ME</span>
 　　 </div>
+
     <div class="term-body">
-    <!-- <p><span class="mrg-100"></span>ABOUT ME<span class="mrg-100"></span></p> -->
     <p><span class="mrg">Name</span><span class="mrg">-----></span>Kazuki Mori</p>
     <p><span class="mrg">Age</span><span class="mrg">-----></span>21,     1998/05/19</p>
     <p><span class="mrg">University</span><span class="mrg">-----></span>The University of Aizu  (Third year University student)</p>
@@ -24,8 +24,8 @@
     <p><span class="mrg">FaceBook</span><span class="mrg">-----></span><a href="https://www.facebook.com/K.M.KazukiMory" target="_blank">click here</a></p>
     <br>
     <br>
-     <p><span class="mrg">Contact</span><span class="mrg"</span></p>
-      <form action="confirm.php" method="post">
+     <p><span class="mrg">Contact</span><span class="mrg">-----></span><router-link to="/form">To the page to send the form</router-link></p>
+      <!-- <form action="confirm.php" method="post">
         <p>
          <label for="yourname">お名前</label>
          <input type="text" name="yourname" placeholder="名前">
@@ -39,7 +39,7 @@
          <input id="mail" type="email" name="mail">
        </p>
        <input type="submit" value="送信する">
-      </form>
+      </form> -->
 　　 </div>
   </div>
 </template>
@@ -50,14 +50,13 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
 *:focus {
   outline: none;
 }
 
 .container{
-  padding: 50px;
+  padding: 100px;
 }
 
 .term-head{
@@ -105,8 +104,8 @@ button{
   margin-right : 20px;
 }
 
-.mrg-350{
-  margin-left : 350px;
+.mrg-aboutme{
+  margin-left : 280px;
 }
 
 a{
