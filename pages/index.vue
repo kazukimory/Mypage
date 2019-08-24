@@ -88,6 +88,7 @@ button{
 }
 
 .term-body{
+    font-family: 'Verdana';
     padding: 0.5em 1em;
     color:#fff;
     background: black;
