@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <div class="mobile"><router-link to="/for-mobile">Click here for mobile-phones</router-link></div>
     <div class="term-head">
       <!-- <button class="red" onClick="if (/Chrome/i.test(navigator.userAgent)) { window.close(); } else { window.open('about:blank', '_self').close(); }"></button> -->
       <button class="red"></button>
@@ -20,7 +21,7 @@
     <p><span class="mrg">$</span><span class="mrg">lab</span></p>
     <p><span class="white">Biomedical Information Technology</span></p>
     <p><span class="mrg">$</span><span class="mrg">skills</span></p>
-    <p><span class="white">HTML / css / JavaScript</span></p>
+    <p><span class="white">HTML / css / JavaScript / Flutter</span></p>
     <p><span class="mrg">$</span><span class="mrg">hobby</span></p>
     <p><span class="white">Football  /  Watching movie  /  Listening to music</span></p>
     <p><span class="mrg">$</span><span class="mrg">account</span></p>
@@ -46,6 +47,26 @@ export default {
 </script>
 
 <style scoped>
+/* @media screen and (min-width:480px) { 
+  .mobile{
+    display: none;
+  }
+} */
+
+@media screen and (min-width:768px) and ( max-width:1024px) {
+  .mobile{
+  display: none;
+  text-align: center;
+  }
+}
+
+@media screen and (min-width:1024px) {
+   .mobile{
+     display: none;
+     text-align: center;
+   }
+}
+
 *:focus {
   outline: none;
 }
