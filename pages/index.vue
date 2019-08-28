@@ -24,7 +24,8 @@
     <p><span class="mrg">FaceBook</span><span class="mrg">-----></span><a href="https://www.facebook.com/K.M.KazukiMory" target="_blank">click here</a></p>
     <br>
     <br>
-     <p><span class="mrg">Contact</span><span class="mrg">-----></span><router-link to="/form">To the page to send the form</router-link></p>
+     <!-- <p><span class="mrg">Contact</span><span class="mrg"></span><router-link to="/form">To the page to send the form</router-link></p> -->
+     <p><span class="mrg">Contact</span><span class="mrg">-----></span><a href="mailto:s1250040a@gmail.com">E-mail me</a></p>
       <!-- <form action="confirm.php" method="post">
         <p>
          <label for="yourname">お名前</label>
