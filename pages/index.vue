@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div class="mobile"><router-link to="/for-mobile">Click here for mobile-phones</router-link></div>
+    <br>
     <div class="term-head">
       <!-- <button class="red" onClick="if (/Chrome/i.test(navigator.userAgent)) { window.close(); } else { window.open('about:blank', '_self').close(); }"></button> -->
       <button class="red"></button>
