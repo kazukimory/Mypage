@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div class="term-head">
+      <!-- <button class="red" onClick="if (/Chrome/i.test(navigator.userAgent)) { window.close(); } else { window.open('about:blank', '_self').close(); }"></button> -->
       <button class="red"></button>
       <button class="yellow"></button>
       <button class="green"></button>
@@ -8,39 +9,32 @@
 　　 </div>
 
     <div class="term-body">
-    <p><span class="mrg">Name</span><span class="mrg">-----></span><span class="white">Kazuki Mori</span></p>
-    <p><span class="mrg">Age</span><span class="mrg">-----></span><span class="white">21,     1998/05/19</span></p>
-    <p><span class="mrg">University</span><span class="mrg">-----></span><span class="white">The University of Aizu  (Third year University student)</span></p>
-    <p><span class="mrg">Major</span><span class="mrg">-----></span><span class="white">Computer science</span></p>
-    <p><span class="mrg">Lab</span><span class="mrg">-----></span><span class="white">Biomedical Information Technology</span></p>
-    <p><span class="mrg">Skills</span><span class="mrg">-----></span><span class="white">HTML / css / JavaScript</span></p>
-    <p><span class="mrg">Hobby</span><span class="mrg">-----></span><span class="white">Football  /  Watching movie  /  Listening to music</span></p>
-    <p><router-link to="/information">open more information</router-link></p>
-    <br>
-    <br>
-    <p><span class="mrg">Github</span><span class="mrg">-----></span><a href="https://github.com/s1250040" target="_blank">click here</a></p>
-    <p><span class="mrg">Instagram</span><span class="mrg">-----></span><a href="https://www.instagram.com/kazukimory/" target="_blank">click here</a></p>
-    <p><span class="mrg">Twitter</span><span class="mrg">-----></span><a href="https://twitter.com/kazukimory" target="_blank">click here</a></p>
-    <p><span class="mrg">FaceBook</span><span class="mrg">-----></span><a href="https://www.facebook.com/K.M.KazukiMory" target="_blank">click here</a></p>
-    <br>
-    <br>
+    <p><span class="mrg">$</span><span class="mrg">name</span></p>
+    <p><span class="white">Kazuki Mori</span></p>
+    <p><span class="mrg">$</span><span class="mrg">age</span></p>
+    <p><span class="white">21,     1998/05/19</span></p>
+    <p><span class="mrg">$</span><span class="mrg">university</span></p>
+    <p><span class="white">The University of Aizu (Third year University student)</span></p>
+    <p><span class="mrg">$</span><span class="mrg">major</span></p>
+    <p><span class="white">Computer science</span></p>
+    <p><span class="mrg">$</span><span class="mrg">lab</span></p>
+    <p><span class="white">Biomedical Information Technology</span></p>
+    <p><span class="mrg">$</span><span class="mrg">skills</span></p>
+    <p><span class="white">HTML / css / JavaScript</span></p>
+    <p><span class="mrg">$</span><span class="mrg">hobby</span></p>
+    <p><span class="white">Football  /  Watching movie  /  Listening to music</span></p>
+    <p><span class="mrg">$</span><span class="mrg">account</span></p>
+    <p><span class="white">click each other</span></p>
+    <p><span class="mrg"><a href="https://github.com/s1250040" target="_blank">Github</a></span><span class="mrg">/</span>
+    <span class="mrg"><a href="https://www.instagram.com/kazukimory/" target="_blank">Instagram</a></span><span class="mrg">/</span>
+    <span class="mrg"><a href="https://twitter.com/kazukimory" target="_blank">Twitter</a></span><span class="mrg">/</span>
+    <span class="mrg"><a href="https://www.facebook.com/K.M.KazukiMory" target="_blank">Facebook</a></span><span class="mrg">/</span>
+    </p>
      <!-- <p><span class="mrg">Contact</span><span class="mrg"></span><router-link to="/form">To the page to send the form</router-link></p> -->
-     <p><span class="mrg">Contact</span><span class="mrg">-----></span><a href="mailto:s1250040a@gmail.com">E-mail me</a></p>
-      <!-- <form action="confirm.php" method="post">
-        <p>
-         <label for="yourname">お名前</label>
-         <input type="text" name="yourname" placeholder="名前">
-        </p>
-        <p>
-         <label for="comment">コメント</label>
-         <textarea id="comment" name="comment" placeholder="ここには自由にコメントを記入してください"></textarea>
-        </p>
-        <p>
-         <label for="mail">メール：</label>
-         <input id="mail" type="email" name="mail">
-       </p>
-       <input type="submit" value="送信する">
-      </form> -->
+     <p><span class="mrg">$</span><span class="mrg">e-mail</span></p>
+     <p><a href="mailto:s1250040a@gmail.com">From here</a></p>
+     <br>
+     <p><router-link to="/information">If you want to see GUI version</router-link></p>
 　　 </div>
   </div>
 </template>

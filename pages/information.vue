@@ -3,7 +3,7 @@
     <router-link to="/"><img src="~/assets/iTerm2-v3-Hero-logo-icon.jpg" alt="home" class="term"></router-link>
     <h1>About me</h1>
 
-    <p>準備中 準備中 準備中 準備中 準備中 準備中 準備中</p>
+    <p>Getting Ready</p>
 </div>
 </template>
 
